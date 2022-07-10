@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "serve -s dist",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build && npm install -g serve"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "core-js": "^3.6.5",
+    "serve": "^13.0.4",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.6.0",
